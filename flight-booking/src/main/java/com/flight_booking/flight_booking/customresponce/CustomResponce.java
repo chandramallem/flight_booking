@@ -1,0 +1,24 @@
+package com.flight_booking.flight_booking.customresponce;
+
+public class CustomResponce {
+
+	private String message;
+	private String status;
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+}
